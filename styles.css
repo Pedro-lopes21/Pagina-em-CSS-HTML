@@ -147,7 +147,8 @@ footer{
 }
 
 nav#nav_rodape{
-    gap: 56px;
+    justify-content: center;
+    gap: 10%;
     display: flex;
 }
 
