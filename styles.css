@@ -217,3 +217,17 @@ svg#logo_insta{
     width: 32px;
 }
 /*Rodape (FIM)*/
+
+button{
+    left: 1244px;
+    align-items: center;
+    display: flex;
+    width: 65px;
+    height: 65px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #12FF00;
+    bottom: 100px;
+    border: none;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .2);
+}
