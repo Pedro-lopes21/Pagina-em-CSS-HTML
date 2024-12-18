@@ -20,7 +20,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 72%;
     margin: 0px auto;
 }
 
@@ -72,6 +72,7 @@ div#div_main{
 }
 
 div#div_main ul{
+    margin-left: 12%;
     list-style: none;
     margin-top: 0px;
 }
@@ -95,12 +96,17 @@ div#div_main h1{
 /*Codigo titulo principal (FIM)*/
 
 /*Corpo do site (INICIO)*/
+section{
+    display: flex;
+    justify-content: center;
+}
+
 div#div_texto{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
     background-color: white;
     display: block;
-    max-width: 1200px;
-    margin: -90px auto 0px auto;
+    max-width: 72%;
+    margin: -90px 1rem 0px 1rem;
     padding: 60px 100px 100px 100px;
 }
 
@@ -219,7 +225,7 @@ svg#logo_insta{
 /*Rodape (FIM)*/
 
 button{
-    left: 1270px;
+    left: 90%;
     align-items: center;
     display: flex;
     width: 65px;
