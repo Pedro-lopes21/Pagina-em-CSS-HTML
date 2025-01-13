@@ -1,0 +1,69 @@
+@media screen and (max-width: 375px){
+    header img{
+        width: 20vw;
+        height: auto;
+    }
+
+    header nav div{
+        gap: 3vw;
+        margin-left: -40px;
+    }
+
+    header nav ul{
+        gap: 5vw;
+    }
+
+    div#div_main h1{
+        font-size: 3rem;
+        margin: 0px;
+    }
+
+    div#div_main ul{
+        margin-left: 7%;
+    }
+
+    div#div_texto{
+        margin: 0px;
+        padding-left: 15%;
+        max-width: 100%;
+    }
+
+    article h3{
+        font-size: 7vw;
+    }
+
+    article p{
+        font-size: 3vw;
+    }
+
+    article ol{
+        font-size: 3vw;
+    }
+
+    article ol{
+        padding-left: 15px;
+    }
+
+    button{
+        left: 81vw;
+    }
+
+    div#div_rodape{
+        font-size: 6vw;
+        margin-right: 10vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    nav#nav_rodape{
+        gap: 56px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img#img_rodape{
+        max-width: 90%;
+        height: auto;
+        margin-right: 25vw;
+    }
+}

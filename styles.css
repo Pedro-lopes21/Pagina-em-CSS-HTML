@@ -107,7 +107,7 @@ div#div_texto{
     display: block;
     max-width: 72%;
     margin: -90px 1rem 0px 1rem;
-    padding: 60px 100px 100px 100px;
+    padding: 6vw 10vw 10vw 10vw;
 }
 
 div#div_texto a{
@@ -128,15 +128,15 @@ article#indice h3{
 
 article p{
     text-align: justify;
-    font-size: 1.375rem;
+    font-size: 1vw;
 }
 
 article h3{
-    font-size: 2.6rem;
+    font-size: 3vw;
 }
 
 article ol{
-    font-size: 1.37rem;
+    font-size: 1vw;
 }
 /*Corpo do site (FIM)*/
 
@@ -145,6 +145,11 @@ footer{
     padding: 100px 48px;
     background-color: black;
 }
+
+img#img_rodape{
+    height: 156px;
+    width: 420px;
+} 
 
 nav#nav_rodape{
     justify-content: center;
