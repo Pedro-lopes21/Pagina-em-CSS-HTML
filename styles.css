@@ -87,6 +87,7 @@ div#div_main a:hover{
 }
 
 div#div_main h1{
+    margin: 0px 0px 0px 1%;
     font-size: 6rem;
     height: 200px;
     text-align: center;
@@ -106,7 +107,7 @@ div#div_texto{
     background-color: white;
     display: block;
     max-width: 72%;
-    margin: -90px 1rem 0px 1rem;
+    margin: -40px 1rem 0px 1rem;
     padding: 6vw 10vw 10vw 10vw;
 }
 
