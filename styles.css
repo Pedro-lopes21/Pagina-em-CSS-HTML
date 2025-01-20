@@ -47,6 +47,11 @@ header nav ul{
     list-style: none;
 }
 
+header#pagina_inicio button{
+    padding: 4px;
+    background-color: initial;
+}
+
 .botao_verde{
     padding: 12px 24px;
     background-color: #12FF00;
@@ -231,7 +236,7 @@ svg#logo_insta{
 }
 /*Rodape (FIM)*/
 
-button{
+button#botao_ancora{
     left: 90%;
     align-items: center;
     display: flex;

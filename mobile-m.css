@@ -53,7 +53,7 @@
         padding-left: 15px;
     }
 
-    button{
+    button#botao_ancora{
         left: 81;
     }
 
@@ -74,6 +74,45 @@
         max-width: 90%;
         height: auto;
         margin-right: 25vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    header#pagina_inicio .botao_hamburguer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+
+    header#pagina_inicio .botao_mobile{
+        width: 38px;
+        height: 30px;
+        display: block;
+        background-color: #000;
+        border-top: 4px solid #fff;
+        backface-visibility: hidden;
+        cursor: pointer;
+    }
+
+    header#pagina_inicio .botao_mobile::before{
+        content: "";
+        height: 4px;
+        margin-top: 10px;
+        display: block;
+        position: relative;
+        background-color: #fff;
+        transition: all .3s;
+    }
+
+    header#pagina_inicio .botao_mobile::after{
+        content: "";
+        height: 4px;
+        margin-top: 10px;
+        display: block;
+        position: relative;
+        background-color: #fff;
+        transition: all .3s;
     }
 }
 
@@ -141,7 +180,7 @@
         padding-left: 15px;
     }
 
-    button{
+    button#botao_ancora{
         left: 77vw;
     }
 
@@ -168,5 +207,9 @@
         width: 5vw;
         height: auto;
     }
+
+}
+
+@media screen and (max-width: 768px){
 
 }
